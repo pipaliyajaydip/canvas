@@ -1,3 +1,9 @@
+ @media print {
+             textarea{
+                 font-family: "Courier New";
+                 font-size: 10pt;
+             }
+         }
 textarea:focus {
   background-color: white;
 }
@@ -141,7 +147,7 @@ outline:none;}
 .x1f{left:664.099976px;}
 .x5{left:680.700012px;}
 .x18{left:800.299988px;}
-@media print{
+/* @media print{ */
 .v0{vertical-align:0.000000pt;}
 .ls0{letter-spacing:0.000000pt;}
 .ws0{word-spacing:0.000000pt;}
