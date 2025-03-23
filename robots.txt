@@ -1,7 +1,13 @@
+User-agent: *
+Disallow:
+
 User-agent: Googlebot
-Disallow: /nogooglebot/
+Disallow: /private/
 
 User-agent: *
-Allow: /
+Disallow: /*.pdf$
+
+User-agent: Googlebot
+Disallow: /noindex/
 
 Sitemap: https://pipaliyajaydip.github.io/canvas/sitemap.xml
